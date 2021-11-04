@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>1dbbd2d9-90d9-4685-b7b1-c708eea5cffc</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderManagement.Bussiness\OrderManagement.Bussiness.csproj" />
+    <ProjectReference Include="..\OrderManagement.Entities\OrderManagement.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
